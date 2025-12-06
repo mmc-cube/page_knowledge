@@ -1,0 +1,340 @@
+{
+  "subjectId": "demo",
+  "subjectName": "2025年秋季入党积极分子结业考试复习答案（依据党章精简版）",
+  "items": [
+    {
+      "id": "demo-card-001",
+      "type": "card",
+      "front": "这份复习资料面向哪次考试并依据什么版本整理？",
+      "back": "2025年秋季入党积极分子结业考试复习答案，依据党章精简版整理。",
+      "important": true
+    },
+    {
+      "id": "demo-card-002",
+      "type": "card",
+      "front": "四个自信具体指哪些方面？",
+      "back": "中国特色社会主义道路自信、理论自信、制度自信、文化自信。",
+      "important": true
+    },
+    {
+      "id": "demo-mcq-001",
+      "type": "mcq",
+      "stem": "关于四个自信的内容，哪项表述正确？",
+      "multi": false,
+      "options": [
+        { "key": "A", "text": "四个自信包括道路自信、理论自信、制度自信和文化自信。" },
+        { "key": "B", "text": "四个自信排除了文化自信。" },
+        { "key": "C", "text": "四个自信只强调道路自信和理论自信。" }
+      ],
+      "answer": ["A"],
+      "explain": "原文列出道路、理论、制度、文化四个方面，共同构成四个自信。",
+      "important": true
+    },
+    {
+      "id": "demo-card-003",
+      "type": "card",
+      "front": "四个意识涵盖哪四种意识？",
+      "back": "政治意识、大局意识、核心意识、看齐意识。",
+      "important": true
+    },
+    {
+      "id": "demo-mcq-002",
+      "type": "mcq",
+      "stem": "下列关于四个意识的说法正确的是？",
+      "multi": false,
+      "options": [
+        { "key": "A", "text": "包括政治意识、大局意识、核心意识和看齐意识。" },
+        { "key": "B", "text": "四个意识不包括看齐意识。" },
+        { "key": "C", "text": "四个意识只提政治意识。" }
+      ],
+      "answer": ["A"],
+      "explain": "政治、大局、核心、看齐四个意识共同构成四个意识的完整内涵。",
+      "important": true
+    },
+    {
+      "id": "demo-card-004",
+      "type": "card",
+      "front": "“两个维护”强调哪些方面的维护？",
+      "back": "坚决维护习近平总书记党中央的核心、全党的核心地位，坚决维护党中央权威和集中统一领导。",
+      "important": true
+    },
+    {
+      "id": "demo-card-005",
+      "type": "card",
+      "front": "社会主义核心价值观在不同层面各包含哪些内容？",
+      "back": "国家层面：富强、民主、文明、和谐；社会层面：自由、平等、公正、法治；公民层面：爱国、敬业、诚信、友善。",
+      "important": true
+    },
+    {
+      "id": "demo-card-006",
+      "type": "card",
+      "front": "新发展理念强调哪五个关键词？",
+      "back": "创新、协调、绿色、开放、共享。",
+      "important": true
+    },
+    {
+      "id": "demo-mcq-003",
+      "type": "mcq",
+      "stem": "下列关于新发展理念的说法哪项成立？",
+      "multi": false,
+      "options": [
+        { "key": "A", "text": "新发展理念强调创新、协调、绿色、开放、共享。" },
+        { "key": "B", "text": "新发展理念排除了共享。" },
+        { "key": "C", "text": "新发展理念只把开放作为唯一重点。" }
+      ],
+      "answer": ["A"],
+      "explain": "新发展理念由创新、协调、绿色、开放、共享五个要素组成。",
+      "important": true
+    },
+    {
+      "id": "demo-card-007",
+      "type": "card",
+      "front": "党的纪律包含哪些类别？",
+      "back": "政治纪律、组织纪律、廉洁纪律、群众纪律、工作纪律、生活纪律。",
+      "important": true
+    },
+    {
+      "id": "demo-mcq-004",
+      "type": "mcq",
+      "stem": "关于党的纪律类别，哪项描述正确？",
+      "multi": false,
+      "options": [
+        { "key": "A", "text": "包括政治、组织、廉洁、群众、工作、生活六方面纪律。" },
+        { "key": "B", "text": "党的纪律不涉及生活纪律。" },
+        { "key": "C", "text": "党的纪律只强调政治纪律和组织纪律。" }
+      ],
+      "answer": ["A"],
+      "explain": "原文列明六类纪律，缺一不可。",
+      "important": true
+    },
+    {
+      "id": "demo-card-008",
+      "type": "card",
+      "front": "党的根本宗旨是什么？",
+      "back": "全心全意为人民服务。",
+      "important": true
+    },
+    {
+      "id": "demo-mcq-005",
+      "type": "mcq",
+      "stem": "对党的根本宗旨的理解，下列哪项正确？",
+      "multi": false,
+      "options": [
+        { "key": "A", "text": "党的根本宗旨是全心全意为人民服务。" },
+        { "key": "B", "text": "党的根本宗旨不是全心全意为人民服务。" }
+      ],
+      "answer": ["A"],
+      "explain": "原文只有一个表述：全心全意为人民服务。",
+      "important": true
+    },
+    {
+      "id": "demo-card-009",
+      "type": "card",
+      "front": "党的生命线和根本工作路线是什么？",
+      "back": "群众路线：一切为了群众，一切依靠群众，从群众中来，到群众中去。",
+      "important": true
+    },
+    {
+      "id": "demo-card-010",
+      "type": "card",
+      "front": "共产党人的精神支柱和政治灵魂是什么？",
+      "back": "共产主义远大理想、中国特色社会主义共同理想。",
+      "important": true
+    },
+    {
+      "id": "demo-mcq-006",
+      "type": "mcq",
+      "stem": "关于共产党人的精神支柱和政治灵魂，哪项表述正确？",
+      "multi": false,
+      "options": [
+        { "key": "A", "text": "包括共产主义远大理想和中国特色社会主义共同理想。" },
+        { "key": "B", "text": "只强调共产主义远大理想，排除共同理想。" },
+        { "key": "C", "text": "只强调中国特色社会主义共同理想，排除共产主义远大理想。" }
+      ],
+      "answer": ["A"],
+      "explain": "两种理想共同构成精神支柱和政治灵魂。",
+      "important": true
+    },
+    {
+      "id": "demo-card-011",
+      "type": "card",
+      "front": "党的最高理想和最终目标是什么？",
+      "back": "实现共产主义。",
+      "important": true
+    },
+    {
+      "id": "demo-mcq-007",
+      "type": "mcq",
+      "stem": "关于党的最高理想和最终目标，下列说法哪项正确？",
+      "multi": false,
+      "options": [
+        { "key": "A", "text": "党的最高理想和最终目标是实现共产主义。" },
+        { "key": "B", "text": "党的最高理想和最终目标不是实现共产主义。" }
+      ],
+      "answer": ["A"],
+      "explain": "原文仅给出“实现共产主义”这一答案。",
+      "important": true
+    },
+    {
+      "id": "demo-card-012",
+      "type": "card",
+      "front": "党的思想路线如何概括？",
+      "back": "一切从实际出发，理论联系实际，实事求是，在实践中检验真理和发展真理。",
+      "important": true
+    },
+    {
+      "id": "demo-card-013",
+      "type": "card",
+      "front": "党的根本组织制度和根本政治制度分别是什么？",
+      "back": "根本组织制度是民主集中制，根本政治制度是人民代表大会制度。",
+      "important": true
+    },
+    {
+      "id": "demo-mcq-008",
+      "type": "mcq",
+      "stem": "关于党的根本组织制度和根本政治制度，哪项正确？",
+      "multi": false,
+      "options": [
+        { "key": "A", "text": "根本组织制度是民主集中制，根本政治制度是人民代表大会制度。" },
+        { "key": "B", "text": "根本组织制度是人民代表大会制度。" },
+        { "key": "C", "text": "根本政治制度被称为民主集中制。" }
+      ],
+      "answer": ["A"],
+      "explain": "原文按照“组织制度/政治制度”对应“民主集中制/人民代表大会制度”。",
+      "important": true
+    },
+    {
+      "id": "demo-card-014",
+      "type": "card",
+      "front": "党的最大政治优势和执政后最大危险分别是什么？",
+      "back": "最大政治优势是密切联系群众，执政后最大危险是脱离群众。",
+      "important": true
+    },
+    {
+      "id": "demo-mcq-009",
+      "type": "mcq",
+      "stem": "对党的最大政治优势与执政后最大危险，哪项判断正确？",
+      "multi": false,
+      "options": [
+        { "key": "A", "text": "最大政治优势是密切联系群众，而执政后最大危险是脱离群众。" },
+        { "key": "B", "text": "执政后最大危险仍然是密切联系群众。" },
+        { "key": "C", "text": "最大政治优势和最大危险都指向脱离群众。" }
+      ],
+      "answer": ["A"],
+      "explain": "原文以“密切联系群众/脱离群众”对举说明优势与危险。",
+      "important": true
+    },
+    {
+      "id": "demo-card-015",
+      "type": "card",
+      "front": "党的中心任务是什么？",
+      "back": "团结带领全国各族人民全面建成社会主义现代化强国、实现第二个百年奋斗目标，以中国式现代化全面推进中华民族伟大复兴。",
+      "important": true
+    },
+    {
+      "id": "demo-card-016",
+      "type": "card",
+      "front": "党员纪律处分包含哪些种类？",
+      "back": "警告、严重警告、撤销党内职务、留党察看、开除党籍。",
+      "important": true
+    },
+    {
+      "id": "demo-mcq-010",
+      "type": "mcq",
+      "stem": "关于党员纪律处分的项目，哪项表述正确？",
+      "multi": false,
+      "options": [
+        { "key": "A", "text": "包括警告、严重警告、撤销党内职务、留党察看、开除党籍。" },
+        { "key": "B", "text": "党员纪律处分只包括警告和严重警告。" },
+        { "key": "C", "text": "纪律处分中排除了开除党籍。" }
+      ],
+      "answer": ["A"],
+      "explain": "原文列出五种处分：警告、严重警告、撤销党内职务、留党察看、开除党籍。",
+      "important": true
+    },
+    {
+      "id": "demo-card-017",
+      "type": "card",
+      "front": "共产党人的初心和使命是什么？",
+      "back": "为中国人民谋幸福，为中华民族谋复兴。",
+      "important": true
+    },
+    {
+      "id": "demo-mcq-011",
+      "type": "mcq",
+      "stem": "关于共产党人的初心和使命，哪项成立？",
+      "multi": false,
+      "options": [
+        { "key": "A", "text": "为中国人民谋幸福，为中华民族谋复兴。" },
+        { "key": "B", "text": "只强调为中国人民谋幸福，不涉及复兴。" },
+        { "key": "C", "text": "只强调为中华民族谋复兴，不涉及人民幸福。" }
+      ],
+      "answer": ["A"],
+      "explain": "初心和使命同步指向人民幸福与民族复兴。",
+      "important": true
+    },
+    {
+      "id": "demo-card-018",
+      "type": "card",
+      "front": "革命和建设的基本立足点是什么？",
+      "back": "独立自主、自力更生。",
+      "important": true
+    },
+    {
+      "id": "demo-mcq-012",
+      "type": "mcq",
+      "stem": "革命和建设的基本立足点有哪些？",
+      "multi": false,
+      "options": [
+        { "key": "A", "text": "独立自主和自力更生。" },
+        { "key": "B", "text": "只强调独立自主，不强调自力更生。" },
+        { "key": "C", "text": "基本立足点排除了独立自主。" }
+      ],
+      "answer": ["A"],
+      "explain": "原文只给出“独立自主、自力更生”两点。",
+      "important": true
+    },
+    {
+      "id": "demo-card-019",
+      "type": "card",
+      "front": "入党誓词的主要内容是什么？",
+      "back": "我志愿加入中国共产党，拥护党的纲领，遵守党的章程，履行党员义务，执行党的决定，严守党的纪律，保守党的秘密，对党忠诚，积极工作，为共产主义奋斗终身，随时准备为党和人民牺牲一切，永不叛党。",
+      "important": true
+    },
+    {
+      "id": "demo-card-020",
+      "type": "card",
+      "front": "中国式现代化具有什么特征？",
+      "back": "是人口规模巨大的现代化、全体人民共同富裕的现代化、物质文明和精神文明相协调的现代化、人与自然和谐共生的现代化、走和平发展道路的现代化。",
+      "important": true
+    },
+    {
+      "id": "demo-card-021",
+      "type": "card",
+      "front": "全过程人民民主具有什么特点？",
+      "back": "坚持党的领导、人民当家作主、依法治国有机统一，是全链条、全方位、全覆盖的民主，保障人民管理国家和社会事务的权利。",
+      "important": true
+    },
+    {
+      "id": "demo-card-022",
+      "type": "card",
+      "front": "党员义务和权利之间是什么关系？",
+      "back": "义务是权利的基础，权利是履行义务的保障，二者辩证统一、不可分割，党员需在履行义务的前提下行使权利。",
+      "important": true
+    },
+    {
+      "id": "demo-card-023",
+      "type": "card",
+      "front": "党的作风建设的核心要求是什么？",
+      "back": "核心是保持党同人民群众的血肉联系，坚持立党为公、执政为民，反对形式主义、官僚主义，弘扬求真务实、艰苦奋斗的作风。",
+      "important": true
+    },
+    {
+      "id": "demo-card-024",
+      "type": "card",
+      "front": "材料对二十届三中全会和中央八项规定有何提示？",
+      "back": "“二十届三中全会相关内容”“中央八项规定内容”未在党章中体现，可参考复习大纲附的公告链接及培训教材补充。",
+      "important": true
+    }
+  ]
+}
