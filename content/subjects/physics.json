@@ -1,0 +1,76 @@
+{
+  "subjectId": "physics",
+  "subjectName": "大学物理",
+  "items": [
+    {
+      "id": "physics-card-001",
+      "type": "card",
+      "front": "匀加速直线运动的位移公式是什么？",
+      "back": "匀加速直线运动的位移与速度、加速度的关系：\n\n$$x = v_0 t + \\frac{1}{2}at^2$$\n\n或\n\n$$v^2 - v_0^2 = 2ax$$",
+      "explain": "这是运动学中最基本的公式。第一个是位移-时间关系，第二个是速度-位移关系。",
+      "important": true
+    },
+    {
+      "id": "physics-mcq-001",
+      "type": "mcq",
+      "stem": "物体从静止开始做匀加速直线运动，加速度为 2 m/s²，则第 3 秒内的位移是多少？",
+      "multi": false,
+      "options": [
+        {
+          "key": "A",
+          "text": "3 m"
+        },
+        {
+          "key": "B",
+          "text": "5 m"
+        },
+        {
+          "key": "C",
+          "text": "9 m"
+        },
+        {
+          "key": "D",
+          "text": "6 m"
+        }
+      ],
+      "answer": ["B"],
+      "explain": "第 3 秒内的位移 = 前 3 秒的总位移 - 前 2 秒的总位移\n\n前 3 秒：$x_3 = \\frac{1}{2} \\times 2 \\times 3^2 = 9$ m\n\n前 2 秒：$x_2 = \\frac{1}{2} \\times 2 \\times 2^2 = 4$ m\n\n第 3 秒内的位移：$\\Delta x = 9 - 4 = 5$ m",
+      "important": true
+    },
+    {
+      "id": "physics-card-002",
+      "type": "card",
+      "front": "万有引力定律的表达式是什么？",
+      "back": "两个质点间的万有引力大小为：\n\n$$F = G\\frac{m_1 m_2}{r^2}$$\n\n其中：\n- $G = 6.67 \\times 10^{-11}$ N·m²/kg²（万有引力常数）\n- $m_1, m_2$ 是两个质点的质量\n- $r$ 是两个质点间的距离",
+      "explain": "这是描述物体间万有引力的基本规律，也是推导卫星运动规律的基础。",
+      "important": true
+    },
+    {
+      "id": "physics-mcq-002",
+      "type": "mcq",
+      "stem": "以下关于物体的重力加速度，哪些说法是正确的？",
+      "multi": true,
+      "options": [
+        {
+          "key": "A",
+          "text": "重力加速度在赤道处最大，两极处最小"
+        },
+        {
+          "key": "B",
+          "text": "重力加速度随高度增加而减小"
+        },
+        {
+          "key": "C",
+          "text": "重力加速度是常数，不随地点改变"
+        },
+        {
+          "key": "D",
+          "text": "重力加速度在两极处最大，赤道处最小"
+        }
+      ],
+      "answer": ["B", "D"],
+      "explain": "重力加速度 $g = \\frac{GM}{R^2}$\n- A: 错误。实际上两极处最大，赤道处最小（因为地球自转）\n- B: 正确。与地面距离增加，$g$ 减小\n- C: 错误。$g$ 随地点改变\n- D: 正确。纬度越高，$g$ 越大",
+      "important": true
+    }
+  ]
+}

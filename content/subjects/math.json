@@ -1,0 +1,107 @@
+{
+  "subjectId": "math",
+  "subjectName": "高等数学",
+  "items": [
+    {
+      "id": "math-card-001",
+      "type": "card",
+      "front": "导数的定义是什么？",
+      "back": "函数 $f(x)$ 在点 $x_0$ 处的导数定义为：$$f'(x_0)=\\lim_{h\\to 0} \\frac{f(x_0+h)-f(x_0)}{h}$$",
+      "explain": "这是导数的极限定义。几何意义：曲线在该点的切线斜率。物理意义：瞬时变化率。",
+      "important": true
+    },
+    {
+      "id": "math-mcq-001",
+      "type": "mcq",
+      "stem": "下列关于极限的说法，哪个是正确的？",
+      "multi": false,
+      "options": [
+        {
+          "key": "A",
+          "text": "$$\\lim_{x\\to 0}\\frac{\\sin x}{x}=0$$"
+        },
+        {
+          "key": "B",
+          "text": "$$\\lim_{x\\to 0}\\frac{\\sin x}{x}=1$$"
+        },
+        {
+          "key": "C",
+          "text": "$$\\lim_{x\\to 0}\\frac{\\sin x}{x}=\\infty$$"
+        }
+      ],
+      "answer": ["B"],
+      "explain": "这是一个基本极限公式，需要掌握。可以使用洛必达法则证明：$$\\lim_{x\\to 0}\\frac{\\sin x}{x}=\\lim_{x\\to 0}\\frac{\\cos x}{1}=1$$",
+      "important": true
+    },
+    {
+      "id": "math-card-002",
+      "type": "card",
+      "front": "什么是不定积分？",
+      "back": "不定积分 $\\int f(x)dx$ 是所有原函数的集合。如果 $F'(x)=f(x)$，则 $$\\int f(x)dx = F(x) + C$$其中 $C$ 是任意常数。",
+      "explain": "不定积分与导数是互逆运算。求不定积分就是求所有满足条件的原函数。",
+      "important": false
+    },
+    {
+      "id": "math-mcq-002",
+      "type": "mcq",
+      "stem": "求 $\\int x^2 dx$ 的结果是？",
+      "multi": false,
+      "options": [
+        {
+          "key": "A",
+          "text": "$$\\frac{x^3}{3}$$"
+        },
+        {
+          "key": "B",
+          "text": "$$\\frac{x^3}{3} + C$$"
+        },
+        {
+          "key": "C",
+          "text": "$$2x + C$$"
+        },
+        {
+          "key": "D",
+          "text": "$$x^3 + C$$"
+        }
+      ],
+      "answer": ["B"],
+      "explain": "使用幂函数的积分公式：$$\\int x^n dx = \\frac{x^{n+1}}{n+1} + C$$（其中 $n \\neq -1$）。这里 $n=2$，所以结果是 $\\frac{x^3}{3} + C$。",
+      "important": false
+    },
+    {
+      "id": "math-card-003",
+      "type": "card",
+      "front": "什么是定积分？其几何意义是什么？",
+      "back": "定积分是黎曼和的极限：$$\\int_a^b f(x)dx = \\lim_{n\\to \\infty} \\sum_{i=1}^{n} f(\\xi_i) \\Delta x_i$$\n\n几何意义：如果 $f(x) \\geq 0$，定积分等于函数图像与 $x$ 轴围成的面积。",
+      "explain": "定积分有很强的几何和物理含义。它可以用来计算面积、体积、弧长等。",
+      "important": true
+    },
+    {
+      "id": "math-mcq-003",
+      "type": "mcq",
+      "stem": "以下哪些是二阶线性微分方程？",
+      "multi": true,
+      "options": [
+        {
+          "key": "A",
+          "text": "$$y'' + 2y' - 3y = e^x$$"
+        },
+        {
+          "key": "B",
+          "text": "$$y' + y\\cos x = 0$$"
+        },
+        {
+          "key": "C",
+          "text": "$$y'' + 3(y')^2 = 0$$"
+        },
+        {
+          "key": "D",
+          "text": "$$y'' - 5y' + 6y = \\sin x$$"
+        }
+      ],
+      "answer": ["A", "D"],
+      "explain": "二阶线性微分方程的一般形式是 $y'' + p(x)y' + q(x)y = f(x)$。\n- A: 是（常系数二阶线性）\n- B: 不是（一阶方程）\n- C: 不是（不是线性方程，有 $(y')^2$ 项）\n- D: 是（常系数二阶线性）",
+      "important": true
+    }
+  ]
+}

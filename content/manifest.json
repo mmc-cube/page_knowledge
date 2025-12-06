@@ -1,0 +1,26 @@
+{
+  "version": "1.1",
+  "title": "期末复习站",
+  "subjects": [
+    {
+      "id": "demo",
+      "name": "2025年秋季入党积极分子结业考试复习答案",
+      "path": "subjects/demo.json"
+    },
+    {
+      "id": "math",
+      "name": "高等数学",
+      "path": "subjects/math.json"
+    },
+    {
+      "id": "physics",
+      "name": "大学物理",
+      "path": "subjects/physics.json"
+    },
+    {
+      "id": "chemistry",
+      "name": "有机化学",
+      "path": "subjects/chemistry.json"
+    }
+  ]
+}

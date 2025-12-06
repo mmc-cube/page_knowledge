@@ -1,0 +1,4 @@
+DEPLOYMENT_TEST_FILE
+This file is used to verify GitHub Pages deployment.
+If you can see this file, the deployment is working correctly.
+Timestamp: 2025-12-06
