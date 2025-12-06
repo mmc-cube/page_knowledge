@@ -26,7 +26,7 @@ export default function HomePage() {
   const loadManifest = async () => {
     try {
       setLoading(true)
-      const response = await fetch('/content/manifest.json')
+      const response = await fetch(`${import.meta.env.BASE_URL}content/manifest.json`)
       if (!response.ok) {
         throw new Error(`HTTP ${response.status}: 无法加载 manifest.json`)
       }

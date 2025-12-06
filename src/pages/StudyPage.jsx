@@ -25,7 +25,7 @@ export default function StudyPage() {
   const loadSubject = async () => {
     try {
       setLoading(true)
-      const response = await fetch(`/content/subjects/${subjectId}.json`)
+      const response = await fetch(`${import.meta.env.BASE_URL}content/subjects/${subjectId}.json`)
 
       if (!response.ok) {
         throw new Error(`HTTP ${response.status}: 无法加载学科内容`)
