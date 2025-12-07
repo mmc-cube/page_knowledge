@@ -146,6 +146,68 @@ export default function StudyPage() {
         ) : (
           <div className="item-container">
             {current.item.type === 'card' ? (
+              <CardItem item={current.item} key={current.index} />
+            ) : current.item.type === 'mcq' ? (
+              <MCQItem item={current.item} onNext={handleItemNext} />
+            ) : (
+              <ErrorMessage
+                title="未知题型"
+                message={`不支持的题型: ${current.item.type}`}
+              />
+            )}
+          </div>
+        )}
+      </main>
+
+      <footer className="study-footer">
+        {!isCompleted && current?.item.type === 'card' && (
+          <div className="card-actions">
+            <button className="btn btn-secondary" onClick={() => handleCardRemember(false)}>
+              ❌ 没记住
+            </button>
+            <button className="btn btn-primary" onClick={() => handleCardRemember(true)}>
+              ✅ 记住了
+            </button>
+          </div>
+        )}
+        {!isCompleted && current?.item.type !== 'card' && (
+          <p className="footer-hint">选择答案后点击提交</p>
+        )}
+      </footer>
+    </div>
+  )
+}
+
+  const current = getCurrentItem()
+  const isCompleted = current === null
+
+  return (
+    <div className="study-page">
+      <header className="study-header">
+        <button className="back-btn" onClick={handleBack}>
+          ← 返回
+        </button>
+        <div className="header-info">
+          <h1>{subjectName}</h1>
+          <div className="progress">
+            {currentIndex + 1} / {items.length}
+          </div>
+        </div>
+      </header>
+
+      <main className="study-main">
+        {isCompleted ? (
+          <div className="completion">
+            <div className="completion-icon">🎉</div>
+            <h2>完成！</h2>
+            <p>您已完成本学科的所有内容</p>
+            <button className="btn btn-primary" onClick={handleBack}>
+              返回首页
+            </button>
+          </div>
+        ) : (
+          <div className="item-container">
+            {current.item.type === 'card' ? (
               <CardItem item={current.item} />
             ) : current.item.type === 'mcq' ? (
               <MCQItem item={current.item} onNext={handleItemNext} />
